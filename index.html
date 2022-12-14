@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" />
+    <title>Integrando HTML com JavaScript</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Integrando HTML com JavaScript</h1>
+        <h2>Form para validação de números</h2>
+        <form id="form-numbers">
+            <input type="number" id="a-number" required placeholder="Inserir valor para A"/>
+            <input type="number" id="b-number" required placeholder="Inserir valor para B"/>
+            <button id="btn-valid" type="submit">Validar operação</button>
+        </form>
+        <p class="success-message"></p>
+        <p class="error-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
